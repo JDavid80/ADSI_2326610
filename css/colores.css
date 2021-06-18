@@ -1,0 +1,19 @@
+/* Color llamado por su nombre... */
+p {
+    font-size:3em;
+}
+.color-azul {
+    color: rgb(12,102,166);
+}
+.color-verde {
+    color: rgb(0,255,0);
+}
+.color-gris {
+    color: #646464;
+}
+.color-avianca {
+    color: rgb(222,1,8);
+}
+.color-mercadolibre {
+    color: rgb(255,241,89);
+}
