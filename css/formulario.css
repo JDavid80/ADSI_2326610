@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+fieldset {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+.box-formulario {
+    width: 80%;
+    background: yellowgreen;
+    display: block;
+    margin: 25px auto;
+}
