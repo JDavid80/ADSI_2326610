@@ -5,16 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
     <link rel="stylesheet" href="css/formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Citas Médicas</h1>
     <form>
         <fieldset>
             <div class="box-formulario">
-                <label>Ingrese su(s) nombre(s)</label><br>
-                <input type="text" name="nombres"><br>
-                <label>Ingrese su(s) apellidos(s)</label><br>
-                <input type="text" name="apellidos"><br>
+                <!-- <label>Ingrese su(s) nombre(s)</label><br> -->
+                <input class="controls" type="text" name="nombres" placeholder="Ingrese su(s) nombres"><br>
+                <!-- <label>Ingrese su(s) apellidos(s)</label><br> -->
+                <input class="controls" type="text" name="apellidos" placeholder="Ingrese su(s) apellidos"><br>
+                <label>Observaciones</label><br>
+                <textarea class="controls-check" name="observaciones" cols="40" rows="5" maxlength="200" placeholder="Observaciones(Max. 200 carácteres)"></textarea><br>
+                <label>Ver Dias Disponibles</label><br><br>
+                <label><input class="controls-check" type="checkbox" value="lunes">Lunes</label><br>
+                <label><input class="controls-check" type="checkbox" value="martes">Martes</label><br>
+                <label><input class="controls-check" type="checkbox" value="miercoles">Miercoles</label><br>
+                <label><input class="controls-check" type="checkbox" value="jueves">Jueves</label><br>
+                <label><input class="controls-check" type="checkbox" value="viernes">Viernes</label><br><br>
+                <label>IPS de atención</label><br><br>
+                <label><input class="controls-check" type="radio" name="IPS">IPS Centro</label><br>
+                <label><input class="controls-check" type="radio" name="IPS">IPS Agua Blanca</label><br>
+                <label><input class="controls-check" type="radio" name="IPS">IPS Cálamo</label><br>
+                <label><input class="controls-check" type="radio" name="IPS">IPS Solarte</label><br><br>
+                <label>Seleccione un médico</label><br>
+                <select class="controls" name="medico">
+                    <option value="liliana-gomez">Liliana Yisela Gómez</option>
+                    <option value="jhon-alex-castanio">Jhon Alex Castaño</option>
+                    <option value="kevin-ijaji">Kevin Stive Ijají</option>
+                    <option value="ashley-jaramillo">Ashley Elizabeth Jaramillo</option>
+                </select><br><br>
+                <input class="controls-button" type="submit" value="Enviar">
             </div>
         </fieldset>
     </form>
