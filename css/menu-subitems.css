@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    padding: 0;
+    cursor: pointer
+}
+ul {
+    list-style: none;
+    background: rgb(222,8,0);
+    width: 100%;
+    position: absolute;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0 2.5em;
+}
+.item {
+    line-height: 3em;
+    display: inline-block;
+    position: relative;
+    text-align: right;
+}
+a:hover {
+    background: rgb(158,3,1);
+    transition: all .3s;
+}
+.sub-item {
+    text-align: center;
+    transition: all 1.5s;
+    max-height: 0;
+    background: rgb(222,8,0);
+}
+.item:hover .sub-item {
+    display: block;
+    max-height: 100px;
+    border-bottom: 1px solid white;
+}
