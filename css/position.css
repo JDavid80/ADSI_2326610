@@ -1,0 +1,32 @@
+.box-1 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid darkcyan;
+    margin-bottom: 5px;
+    top: 50px;
+    
+}
+.box-2 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid goldenrod;
+    position: relative;
+    top: -150px;
+    left: -50px;
+}
+.box-3 {
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(220,8,0);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.box-4 {
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    background: limegreen;
+    bottom: 20px;
+    right: 20px;
+}
