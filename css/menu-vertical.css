@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    top: 0;
+    border-right: 1px solid rgb(48,48,48, .6);
+}
+ul {
+    list-style: none;
+    position: absolute;
+    top: 80px;
+    left: 5px;
+    width: 95%;
+}
+a {
+    text-decoration: none;
+    color: rgb(64,64,64);
+    font-size: 1em;
+    display: block;
+    border-radius: 5px;
+    padding: 17px 35px;
+    font-family: 'Roboto', sans-serif;
+}
+a:hover {
+    background: gainsboro;
+}
+.main-content {
+    margin: 40px 40px 40px 320px;
+    text-align: justify;
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.6em;
+}
+.fas, .fab {
+    width: 30px;
+    font-size: 1.2em;
+}
+i {
+    padding-right: 30px;
+}
+.linea-item {
+    border-top: 1px solid rgb(48,48,48, .6);
+    border-radius: 0;
+}
+h1 {
+    text-align: right;
+    margin: 50px;    
+}
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v27-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v27-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v27-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v27-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v27-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v27-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v27-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v27-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v27-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v27-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v27-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
