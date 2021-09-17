@@ -1,0 +1,31 @@
+/* Resetear la página */
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-image: url("../img/iniciar-sesion2.png");
+    width: 95%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+body {
+    background-image: url("../img/mountain-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width: 800px) {
+    body {
+        background-image: url("../img/mountain-2b.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url("../img/mountain-2c.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
