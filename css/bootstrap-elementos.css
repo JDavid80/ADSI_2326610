@@ -1,0 +1,20 @@
+.box-1 {
+    background: dodgerblue;
+    color: white;
+    height: 90px;
+    font-size: 1.7em;
+    margin-bottom: .4em;
+}
+h2 {
+    margin-left: 50px;
+}
+.grillas {
+    margin-bottom: 30px;
+}
+.style-col {
+    border: 1px solid rgba(48,48,48,.8);
+    height: 55px;
+}
+.style-row {
+    margin-bottom: 50px;
+}
