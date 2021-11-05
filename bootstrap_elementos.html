@@ -8,7 +8,7 @@
     <title>Hello, world!</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-elementos.css">
-    <script src="js/bootstrap.js"></script>
+    
   </head>
   <body>
     <h1>Hello, world!</h1>
@@ -142,5 +142,223 @@
         </div>
       </div>
     </div>
+    <!--  -->
+    <!-- ALERT -->
+    <!--  -->
+    <h2>Alert</h2>
+    <div class="container">
+      <div class="row style-row">
+        <div id="liveAlertPlaceholder"></div>
+        <button type="button" class="btn btn-primary col-6" id="liveAlertBtn">Está seguro que desea proceder con la compra??</button>
+      </div>
+    </div>
+
+    <!--  -->
+    <!-- Badge -->
+    <!--  -->
+    <h2>Badge</h2>
+    <div class="container style-row">
+      <button type="button" class="btn btn-primary position-relative">
+        Preguntas
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+          10
+          <span class="visually-hidden">Preguntas del público</span>
+        </span>
+      </button>
+    </div>
+
+    <!--  -->
+    <!--Buttons -->
+    <!--  -->
+    <h2>Buttons</h2>
+    <div class="container style-row">
+      <div class="row">
+        <button type="button" class="btn btn-primary col-3 space-buttons">Primary</button>
+        <button type="button" class="btn btn-secondary col-3  space-buttons">Secondary</button>
+        <button type="button" class="btn btn-success col-3  space-buttons">Success</button>
+      </div>
+      <div class="row">
+        <button type="button" class="btn btn-danger col-3  space-buttons">Danger</button>
+        <button type="button" class="btn btn-warning col-3  space-buttons">Warning</button>
+        <button type="button" class="btn btn-info col-3 space-buttons">Info</button>
+      </div>
+      <div class="row">
+        <button type="button" class="btn btn-light col-3 space-buttons">Light</button>
+        <button type="button" class="btn btn-dark col-3 space-buttons">Dark</button>
+        <button type="button" class="btn btn-link col-3 space-buttons">Link</button>
+      </div>
+    </div>
+
+    <!--  -->
+    <!--Cards-->
+    <!--  -->
+    <h2>Cards</h2>
+    <div class="container">
+      <div class="row">
+        <div class="card space-cards" style="width: 18rem;">
+          <img src="img/canyon1_350x196.png" class="card-img-top" alt="Canyon">
+          <div class="card-body">
+            <h4 class="card-title">Canyon x5</h4>
+            <p class="card-text">Innovación y Tecnología resumida en una bicicleta.</p>
+            <a href="#" class="btn btn-primary">Ir a las características</a>
+          </div>
+        </div>
+        <div class="card space-cards" style="width: 18rem;">
+          <img src="img/scott1_350x196.jpg" class="card-img-top" alt="Canyon">
+          <div class="card-body">
+            <h4 class="card-title">Scott Aspect 940</h4>
+            <p class="card-text">Innovación y Tecnología resumida en una bicicleta.</p>
+            <a href="#" class="btn btn-primary">Ir a las características</a>
+          </div>
+        </div>
+        <div class="card space-cards" style="width: 18rem;">
+          <img src="img/specialized1_350x196.jpg" class="card-img-top" alt="Canyon">
+          <div class="card-body">
+            <h4 class="card-title">Specialized Chisel</h4>
+            <p class="card-text">Innovación y Tecnología resumida en una bicicleta.</p>
+            <a href="#" class="btn btn-primary">Ir a las características</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!--  -->
+    <!--Carousel-->
+    <!--  -->
+    <h2>Carousel</h2>
+    <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active black-font" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="img/porsche.png" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block black-font">
+              <h5>Porsche 911</h5>
+              <p>El placer de conducir.</p>
+            </div>
+          </div>
+          <div class="carousel-item"  data-bs-interval="3000">
+            <img src="img/bmw_888x381.png" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block black-font">
+              <h5>BMW Serie 3</h5>
+              <p>El placer de conducir.</p>
+            </div>
+          </div>
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+          <span class="visually-hidden ">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hiddent">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!--  -->
+    <!--Modal-->
+    <!--  -->
+    <h2>Modal</h2>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Confirmar Compra
+</button>
+<div class="container style-row">
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Compra exitosa!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          La compra ha sido realizada con éxito
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir del sitio</button>
+          <button type="button" class="btn btn-primary">Continuar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--  -->
+<!-- Offcanvas -->
+<!--  -->
+<h2>Offcanvas</h2>
+<div class="container"></div>
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">Mas Información</button>
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Por que el BMW Serie 3 es uno de los autos mas vendidos del mundo?
+      </h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex et praesentium veritatis sunt? Adipisci tempore facilis qui quas quisquam, id, culpa aliquid placeat consequatur repellendus atque minima. Vitae ab harum iusto illo labore, dicta nostrum voluptate reprehenderit accusamus quis eum eius. Corporis maxime voluptate praesentium aliquid ipsam repellat facere recusandae voluptatum ad illum sunt sapiente blanditiis magni, perspiciatis a debitis saepe et ducimus iure! At deserunt dignissimos magnam inventore delectus nulla quaerat itaque ut voluptates natus, quod, neque architecto tempora laborum adipisci exercitationem vitae dolor placeat odio assumenda? Molestiae nesciunt exercitationem unde dolor sit quod ea asperiores molestias illum porro consectetur quisquam, ex quaerat ab excepturi eius nam magnam, in aperiam nemo? Fugiat tempora suscipit eos beatae maiores, incidunt odio! Fuga, natus autem ad optio eveniet deserunt velit eligendi. Quam earum aliquam quia corrupti dolor vero eveniet perferendis laudantium blanditiis sapiente distinctio dolore animi eaque assumenda, debitis adipisci qui numquam. Amet animi nemo provident eaque illo aliquid architecto, reiciendis unde laborum incidunt fugiat, repudiandae perferendis accusamus natus corrupti ipsum tempora modi hic sit odit ducimus harum. Assumenda, in omnis? Voluptates et quaerat impedit odit corrupti quis repudiandae labore? Officiis placeat totam corrupti quos? Doloremque nulla deleniti odio ducimus totam molestiae explicabo sed earum accusamus neque, iste quas laborum! Magni, numquam tempora? Dolorem voluptatem cumque perferendis. Eos, amet veniam! Harum assumenda aliquid rerum rem fugiat necessitatibus inventore deserunt hic quam libero blanditiis commodi accusantium nihil aspernatur facilis labore dolor accusamus, doloribus est! Voluptatem quidem unde voluptatum reprehenderit aspernatur in odit dolorum dignissimos quibusdam quam repellat aperiam doloremque sint laudantium nostrum at vitae eaque mollitia aliquam ea accusamus aut, quae quia itaque. Odit sapiente reiciendis quasi cum, dolorum veritatis iste. Culpa veniam, mollitia et sit velit dicta aut ipsam nihil itaque voluptate rerum quas soluta voluptates rem, consectetur numquam id repellat at.</p>
+    </div>
+  </div>
+</div>
+
+<!--  -->
+<!--Pagination -->
+<!--  -->
+<h2>Pagination</h2>
+<div class="container">
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-end">
+        <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+      </ul>
+    </nav>
+</div>
+<!--  -->
+<!--Popover -->
+<!--  -->
+<h2>Popover</h2>
+<div class="container">
+  <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Formas de Pago" data-bs-content="* Tarjeta de crédito">Ver Formas de Pago</button>
+</div>
+<!--  -->
+<!--Toast -->
+<!--  -->
+<h2>Toast</h2>
+<div class="container">
+  <button type="button" class="btn btn-primary" id="liveToastBtn">Ver Notificación</button>
+
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+        <img src="img/icono_factura_36x45.png" class="rounded me-2" alt="...">
+        <strong class="me-auto">Facturas</strong>
+        <small>Hace 11 minutos</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">
+        La factura se ha generado automáticamente.
+      </div>
+    </div>
+  </div>
+</div>
+<!--  -->
+<!--Toast -->
+<!--  -->
+<h2>Tooltip</h2>
+<div class="container">
+  <button type="button" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="PSE - Compra segura">
+    Proceder con el pago
+  </button>
+</div>
+<br><br><br>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap-elementos.js"></script>
   </body>
 </html>

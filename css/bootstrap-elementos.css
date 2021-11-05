@@ -18,3 +18,15 @@ h2 {
 .style-row {
     margin-bottom: 50px;
 }
+.space-buttons {
+    margin: 20px;
+    padding: 20px;
+    font-size: 1.3em;
+}
+.space-cards {
+    margin: 20px;
+    padding: 20px;
+}
+.black-font {
+    color: black;
+}
